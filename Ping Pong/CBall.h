@@ -21,9 +21,9 @@ public:
 	void changeDirection(eDir);
 	void randomDirection();
 	void move();
-	inline int getCordX();
-	inline int getCordY();
-	inline eDir getDirection();
+	int getCordX();
+	int getCordY();
+	eDir getDirection();
 
 	friend ostream & operator<<(ostream& o, CBall ball)
 	{

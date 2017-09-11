@@ -24,12 +24,18 @@
     <ClCompile Include="CPaddle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CGameManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CBall.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CPaddle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

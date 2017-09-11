@@ -1,34 +1,10 @@
-#include "CBall.h"
-#include "CPaddle.h"
+#include "CGameManager.h"
 
 
 int main()
 {
-	CBall ball(0, 0);
-	CPaddle paddle(0, 0);
-	CPaddle paddle2(10, 0);
-
-	cout << paddle << endl;
-	cout << paddle2 << endl;
-
-	paddle.moveUp();
-	paddle2.moveDown();
-
-	cout << paddle << endl;
-	cout << paddle2 << endl;
-
-	cout << ball << endl;
-	ball.randomDirection();
-	cout << ball << endl;
-	ball.move();
-	cout << ball << endl;
-	ball.randomDirection();
-	ball.move();
-	cout << ball << endl;
-	ball.randomDirection();
-	ball.move();
-	cout << ball << endl;
-
+	CGameManager c(40, 20);
+	c.run();
 	system("pause");
 	return 0;
 }

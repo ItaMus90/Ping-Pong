@@ -111,11 +111,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CBall.cpp" />
+    <ClCompile Include="CGameManager.cpp" />
     <ClCompile Include="CPaddle.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CBall.h" />
+    <ClInclude Include="CGameManager.h" />
     <ClInclude Include="CPaddle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
